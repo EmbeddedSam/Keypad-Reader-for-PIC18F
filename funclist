@@ -1,0 +1,21 @@
+_writeCoil: CODE, 3558 0 310
+_checkCRC: CODE, 4164 0 262
+_readCoil: CODE, 1184 0 554
+_decodeIt: CODE, 4630 0 178
+_main: CODE, 5030 0 26
+_writeReg: CODE, 3868 0 296
+_writeMultipleCoils: CODE, 24 0 606
+_ClsUSART: CODE, 5080 0 12
+_OpnUSART: CODE, 4808 0 108
+__initialization: CODE, 4916 0 64
+_OpenTmr0: CODE, 5056 0 24
+_generateCRC: CODE, 4426 0 204
+_isr: CODE, 8 0 3550
+_clearResponse: CODE, 4986 0 44
+_ConfigInterrupts: CODE, 5102 0 8
+_readInputReg: CODE, 2226 0 488
+_readInputCoil: CODE, 630 0 554
+_modbusDelay: CODE, 5092 0 10
+_readReg: CODE, 2714 0 488
+_writeMultipleRegs: CODE, 1738 0 488
+Total: 8274
