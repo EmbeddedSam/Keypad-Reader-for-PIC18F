@@ -1,9 +1,9 @@
-Modbus Slave project for PIC18F 
+Keypad Reader for PIC18F 
 ===============================
 
 
-This project contains the code to get ANY PIC18F series Microcontroller
-with a working USART to act as a Modbus Slave device.
+This project should be able to get any PIC18F series Microcontroller
+with an 8-bit wide port to read a 12 button digital keypad.
 
 The project is ready to go for either the PIC18F8722 or the PIC18F4520
 but with some simple changes can work with any other device.
@@ -11,37 +11,7 @@ but with some simple changes can work with any other device.
 IF USING 18F4520 or 18F8722
 ----------------------------
   To get started make the relevant changes to "System.h"
-  All you need to do is define your processor, frequency, baudrate etc
-  in here and you are ready to go.
 
-  From here you can start coding away in "main.c" and start adding your
-  own functions to "user.c".. all you need to do is equate a holdingReg
-  or a coil to something.
-
-  For example
-
-    void main(void)
-    {
-      OpnUSART();
-      ConfigInterrupts();
-
-      while(1){
-        if(modbusMessage){
-          decodeIt();}
-
-          //Start code here...
-
-          TRISD,TRISC = 0;
-          LATD = holdingReg[0];
-          LATCbits.LATC1 = coils[0];
-        }
-    }
-
-  This code would output whatever is in holdingReg[0] to LATD and whatever
-  is in coils[0] to LATC1.. it is that easy..
-
-  Obviously you can take it further than this and start making cool functions
-  but that is up to you.. all of the communication code is taken care for you.
 
 IF USING ANOTHER PROCESSOR
 ----------------------------
