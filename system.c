@@ -124,3 +124,9 @@ void ConfigInterrupts(void)
     INTCONbits.PEIE = 1; // enable peripheral interrupts
 }
 
+void ConfigPortPins(void)
+{
+    TRISF = 0;
+    LATF = 0;
+}
+

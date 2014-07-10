@@ -1,21 +1,15 @@
-_writeCoil: CODE, 3558 0 310
-_checkCRC: CODE, 4164 0 262
-_readCoil: CODE, 1184 0 554
-_decodeIt: CODE, 4630 0 178
-_main: CODE, 5030 0 26
-_writeReg: CODE, 3868 0 296
-_writeMultipleCoils: CODE, 24 0 606
-_ClsUSART: CODE, 5080 0 12
-_OpnUSART: CODE, 4808 0 108
-__initialization: CODE, 4916 0 64
-_OpenTmr0: CODE, 5056 0 24
-_generateCRC: CODE, 4426 0 204
-_isr: CODE, 8 0 3550
-_clearResponse: CODE, 4986 0 44
-_ConfigInterrupts: CODE, 5102 0 8
-_readInputReg: CODE, 2226 0 488
-_readInputCoil: CODE, 630 0 554
-_modbusDelay: CODE, 5092 0 10
-_readReg: CODE, 2714 0 488
-_writeMultipleRegs: CODE, 1738 0 488
-Total: 8274
+_processIt: CODE, 1132 0 2
+_refreshRateToTimerValue: CODE, 622 0 166
+___ftpack: CODE, 454 0 168
+_main: CODE, 1042 0 22
+___lwtoft: CODE, 974 0 36
+_WriteTimer0: CODE, 1086 0 18
+__initialization: CODE, 1122 0 4
+_setupPorts: CODE, 1064 0 22
+_OpenTimer0: CODE, 1010 0 32
+_TimerOverflow: CODE, 8 0 920
+i2_WriteTimer0: CODE, 1104 0 18
+___fttol: CODE, 242 0 212
+_setupTimers: CODE, 928 0 46
+___ftdiv: CODE, 28 0 214
+Total: 1880

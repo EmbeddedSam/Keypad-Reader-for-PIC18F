@@ -2,13 +2,14 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>Modbus Slave 2.0</name>
+            <name>Keypad-Reader-for-PIC18F</name>
             <creation-uuid>fd17e5a7-f9b6-4f8e-a0b1-1d020538f498</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
             <cpp-extensions/>
             <header-extensions>h</header-extensions>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
+            <asminc-extensions/>
             <make-dep-projects/>
         </data>
     </configuration>
