@@ -1,15 +1,16 @@
-_processIt: CODE, 1132 0 2
-_refreshRateToTimerValue: CODE, 622 0 166
-___ftpack: CODE, 454 0 168
-_main: CODE, 1042 0 22
-___lwtoft: CODE, 974 0 36
-_WriteTimer0: CODE, 1086 0 18
-__initialization: CODE, 1122 0 4
-_setupPorts: CODE, 1064 0 22
-_OpenTimer0: CODE, 1010 0 32
-_TimerOverflow: CODE, 8 0 920
-i2_WriteTimer0: CODE, 1104 0 18
-___fttol: CODE, 242 0 212
-_setupTimers: CODE, 928 0 46
-___ftdiv: CODE, 28 0 214
-Total: 1880
+_process: CODE, 1256 0 92
+_refreshRateToTimerValue: CODE, 940 0 166
+___ftpack: CODE, 772 0 168
+_main: CODE, 1550 0 24
+___lwtoft: CODE, 1456 0 36
+_displaySegment: CODE, 1106 0 150
+_WriteTimer0: CODE, 1574 0 18
+__initialization: CODE, 1348 0 56
+_setupPorts: CODE, 1524 0 26
+_OpenTimer0: CODE, 1492 0 32
+_TimerOverflow: CODE, 8 0 338
+i2_WriteTimer0: CODE, 1592 0 18
+___fttol: CODE, 560 0 212
+_setupTimers: CODE, 1410 0 46
+___ftdiv: CODE, 346 0 214
+Total: 1596

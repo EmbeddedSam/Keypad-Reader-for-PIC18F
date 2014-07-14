@@ -5,21 +5,24 @@
 #include "keypad_functions.h"
 
 unsigned int TimerValue;
-unsigned int KeyPressed;
+unsigned char KeyPressed;
+unsigned char KeypadCode[4] = { 1, 2, 3, 4 }; //Change this to anything you want
+unsigned char codeRead[100];
 
 void main(void)
 {
     setupPorts();
     setupTimers();
-    ei();     // This is like fliping the master switch to enable interrupt
+    ei();     // enable all interrupts
 
-    if(KeyPressed)
-    {
-        processIt();
-    }
+    while(forever){
+        if(KeyPressed){
+            process(KeyPressed);
+        }}
 
-    while(1){}
+    //use automatic roll over in the interrupt with a global increment
+    //Check columns in order, dont let the interrupt fire again until column 2 has
+    //been checked
 }
-
 
 
